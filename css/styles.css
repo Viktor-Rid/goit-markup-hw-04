@@ -253,14 +253,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 8px;
     border-radius: 4px;
     width: 264px;
     height: 112px;
     background: #f4f4fd;
     padding: 24px 100px;
     border: 1px solid #8e8f99;
-    margin-bottom: 8px;
+
 }
 
 .feature {
