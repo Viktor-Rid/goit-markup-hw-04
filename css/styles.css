@@ -249,6 +249,19 @@ img {
     width: calc((100% - 32px) / 4)
 }
 
+.benefit-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    padding: 24px 100px;
+    border: 1px solid #8e8f99;
+}
+
 .feature {
     font-weight: 500;
     font-size: 20px;
