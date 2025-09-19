@@ -337,7 +337,7 @@ img {
     fill: #f4f4fd;
 }
 
-social-link:hover,
+.social-link:hover,
 .social-link:focus {
     background-color: #404bbf;
 }
