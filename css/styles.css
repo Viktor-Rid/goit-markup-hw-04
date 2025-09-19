@@ -433,6 +433,11 @@ social-link:hover,
 
 }
 
+.portfolio-card:hover .overlay,
+.portfolio-card:focus .overlay {
+    transform: translateY(0%);
+}
+
 .portfolio-overlay {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
