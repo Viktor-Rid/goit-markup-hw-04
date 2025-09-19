@@ -294,6 +294,8 @@ img {
 .team-info {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 
 }
 
@@ -311,7 +313,37 @@ img {
     text-align: center;
 }
 
-.section-team {
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.social-icon {
+    fill: #f4f4fd;
+}
+
+social-link:hover,
+.social-link:focus {
+    background-color: #404bbf;
+}
+
+
+. .section-team {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
